@@ -10,7 +10,7 @@ def get_response(input_text):
     payload = {
         "model": "gpt-4o",
         "input": input_text,
-        "instructions": "You are siri. You understnad indian english accent and replies with minimal words.",
+        "instructions": "You are siri. You understand indian english accent and replies with minimal words.",
     }
     
     response = requests.post(

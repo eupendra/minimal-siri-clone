@@ -29,7 +29,7 @@
 #     payload = {
 #         "model": "gpt-4o",
 #         "input": text,
-#         "instructions": "You are siri. You understnad indian english accent and replies with minimal words. All the input is strictly in english."
+#         "instructions": "You are siri. You understand indian english accent and replies with minimal words. All the input is strictly in english."
 #     }
     
 #     if previous_response_id:
