@@ -23,5 +23,13 @@ This project uses [`uv`](https://github.com/astral-sh/uv) as the package manager
    python3 complete-voice-chatbot.py
    ```
 
+## Running Tests
+
+Execute the test suite using `pytest`:
+
+```sh
+pytest
+```
+
 ## License
 MIT
