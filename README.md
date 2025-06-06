@@ -20,7 +20,7 @@ This project uses [`uv`](https://github.com/astral-sh/uv) as the package manager
    ```
 3. Run the main script:
    ```sh
-   python3 complete-voice-chatbot.py
+   python3 step5_complete-bot.py
    ```
 
 ## Running Tests
