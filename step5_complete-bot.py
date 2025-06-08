@@ -8,7 +8,8 @@ def main():
     print("Say 'bye' to exit chat.")
     last_response_id = None
     while True:
-        audio_path = record(duration=6)
+        # Record a shorter clip to reduce turnaround time
+        audio_path = record(duration=3)
         try:
             user_input = audio_to_text(audio_path)
             # print("You:", user_input)

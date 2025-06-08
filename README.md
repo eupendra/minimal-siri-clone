@@ -9,6 +9,11 @@ This project is a minimal Siri-like voice assistant clone. It allows you to inte
 - Convert text responses to speech
 - Play audio responses
 
+## Performance Tips
+The assistant now records shorter 3‑second clips and uses the lightweight
+Whisper **tiny** model. These adjustments help reduce the time between speaking
+and hearing the reply.
+
 ## Package Manager
 This project uses [`uv`](https://github.com/astral-sh/uv) as the package manager for Python dependencies. Make sure you have `uv` installed to manage and install dependencies efficiently.
 
