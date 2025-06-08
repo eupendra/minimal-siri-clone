@@ -1,8 +1,8 @@
 import whisper
 import os
 
-# Load the whisper model once
-model = whisper.load_model("base")
+# Load a lightweight Whisper model for faster transcription
+model = whisper.load_model("tiny")
 
 def audio_to_text(file_path):
     # Use local whisper model instead of API call
